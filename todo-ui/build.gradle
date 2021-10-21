@@ -11,6 +11,3 @@ node {
 
 jar.dependsOn 'npm_run_build'
 
-jar {
-  from 'dist/todo-ui' into 'static'
-}
